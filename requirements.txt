@@ -1,0 +1,14 @@
+dbt-core
+dbt-postgres
+
+dbt-autofix
+
+# Dagster and the Dagster dbt integration
+dagster-dbt
+dagster-webserver
+
+sqlalchemy
+python-dotenv
+pandas
+psycopg2-binary
+openpyxl
