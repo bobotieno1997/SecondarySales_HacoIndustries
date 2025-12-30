@@ -4,7 +4,7 @@ from .jobs import secondary_sales_data
 # Single schedule that runs the complete pipeline (raw extraction + dbt models)
 secondary_sales_schedule = dg.ScheduleDefinition(
     job=secondary_sales_data,
-    cron_schedule="30 4 * * *",
+    cron_schedule="0 * * * 5,6,0,1",
     name="secondary_sales_schedule",
 )
 
